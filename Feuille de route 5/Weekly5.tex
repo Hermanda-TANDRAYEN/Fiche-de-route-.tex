@@ -8,6 +8,7 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage[frenchb]{babel}
 \usepackage{hyperref}
+\hypersetup {colorlinks=true,linkcolor=blue,urlcolor=blue}
 \AddThinSpaceBeforeFootnotes
 \FrenchFootnotes
 \usepackage{ae,lmodern}
@@ -32,7 +33,6 @@
 \subsectionfont{\color{Mulberry}}
 \parskip=10pt
 \setlength{\parindent}{1cm}
-\usepackage{comment}
 \begin{document}
 \begin{titlepage}
 \phantom{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -92,13 +92,49 @@ ytrfdytfugvghikuhjbiujbhaaaaaaaaaaaaaaa}
 \begin{itemize}
 	\item Trouver d'autres Data papers avec des sujets totalement différents afin d'avoir un template neutre
 	\item Mettre en place un plan d'organisation de fichier commun
-	\item Crée un Gantt
 \end{itemize}
 
 
 
 \part*{Taches effectuées}
-\section*{Recherche d'autres datas papers}
+\section*{Plan d'organisation des fichiers commun}
+
+\underline{Organisation du dossier: Fiche-de-route-.tex}
+\begin{itemize} [font=\color{airforceblue} \Large, label=\ding{217}, leftmargin=0cm] 
+\item  Doc exploitable:	
+	\begin{itemize} 
+	\item Document texte:
+		\begin{description}
+		\item[fichier texte word, bloc note, tableur excel ect.]
+		\end{description}
+	\item Document image:
+		\begin{description}
+		\item[fihier Pdf, png, Jpeg, réutilisable en figure.]
+		\end{description}
+	\end{itemize}
+
+\item Feuille de route:
+	\begin{itemize}
+	\item  Feuille de route n: 
+		
+		\begin{description}
+		\item[  weekly n , en pdf et .tex (obligatoire), 					et 				images associées au document LateX ]
+		\end{description}
+	
+	\end{itemize}
+\end{itemize}
+Le plan reste à être optimisé il nous reste à comprendre comment 
+partitionner le document latex, et comment faire 
+appel aux images par un chemin relatif et non absolu.
+\newpage
+\section*{Observation des similitudes sur les datas papers}
+Cette fois-ci afin d'avoir une réelle vue d'ensemble de ce qui peut ce faire comme DP \footnote{Data Paper}, nous avons aussi voulu consulter des sujets
+ différents de la météorologie, (sans le mettre de côté).\\
+Nous avons gardé les journaux les plus pertinents et avec les IF \footnote{Impact Factor} les plus élever:\\
+Atomic Data and Nuclear Data Tables IF 6.349\\
+Progrès dans les ressources en eau  IF 3.673\\
+Agricultural and Forest Meteorology IF 4.189\\
+
 \subsection*{Datas papers liés aux jeux vidéo}
 \begin{flushleft}
 Exploring the relationship between video game expertise and fluid intelligence
@@ -210,25 +246,109 @@ Ex: DOI
 
 \newpage
 
-\subsection*{Datas papers liés à ...}
+ 
+\twocolumn
+\setlength{\columnseprule}{0.01cm}
+\begin{center}
+Données atomiques et intensités de ligne pour l'ion SV
+\\
+-Data Journal: Atomic Data and Nuclear Data Tables-\\
+\url {https://doi.org/10.1016/j.adt.2016.06.002}
+\end{center}
 
-...
+\noindent Outline:
+\begin{itemize}
+\item Abstrait
+\item Mots clés
+\item 1 . introduction
+\item 1 . introduction
+\item 3 . Évaluation des résultats
+\item ...
+\item 6 . Conclusions
+\item Reconnaissance
+\item Références
+\item Explication des tableaux
+\end{itemize}
 
-\section*{Organisation de fichier commun}
+\line (1,0){200}
 
-- Mise en ordre de l'espace de travail partagé avec Gitkraken
+\begin{center}
+Évaluation des variations et des tendances de la sécheresse saisonnière en Europe centrale\\
+-Data Journal: Progrès dans les ressources en eau-\\
+\url {https://doi.org/10.1016/j.advwatres.2019.03.005}
+\end{center}
+\noindent Outline:
+\begin{itemize}
+\item Points forts
+\item Abstrait
+\item Résumé graphique
+\item Mots clés 
+\item 1 . introduction  
+\item 2 . Données et méthodes. 
+\item 3 . Résultats
+\item 4 . Discussion
+\item 5 . Conclusions
+\item Remerciements
+\item Annexe . Matériel supplémentaire
+\item Références
+\end{itemize}
 
-\section*{Gantt}
+\begin{center}
+Phenology acts as a primary control of urban vegetation cooling and warming: A synthetic analysis of global site observations
+\\
+-Data Journal: Agricultural and Forest Meteorology-\\
+\url {https://doi.org/10.1016/j.agrformet.2019.107765}
+\end{center}
 
-- En cours de procédure
+\noindent Outline:
+\begin{itemize}
+\item Points forts
+\item Abstrait
+\item Mots clés
+\item Les acronymes
+\item 1 . introduction
+\item 2 . matériaux et méthodes
+\item 3 . résultats et discussion
+\item 4 . Conclusions
+\item Annexe . Matériel supplémentaire
+\item Données de recherche
+\item Références
+\end{itemize}
 
+Nous avons ici, comme pour les recherches précédentes les mêmes parties qui reviennent.
 \newpage
+\onecolumn
+Un journal m'a beaucoup plus interpelé dans le sens où nous avons ce qu'il faut pour présenter les données du projet, le voici:
+
+\begin{center}
+Évaluations des estimations de la productivité primaire brute à l'aide de modèles basés sur les données satellitaires utilisant des sites d'observation de covariance de tourbillons dans l'hémisphère nord
+\\
+-Data Journal: Agricultural and Forest Meteorology-\\
+\url {https://doi.org/10.1016/j.agrformet.2019.107771}
+\end{center}
+
+\noindent Outline:
+\begin{itemize}
+\item Points forts
+\item Abstrait
+\item Mots clés
+\item 1 . introduction
+\item 2 . Données et sites
+\item 3 . Méthodologie
+\item 4 . Résultats
+\item 5 . Discussion
+\item 6 . Conclusion
+\item Déclaration d'intérêts concurrents
+\item Remerciements
+\item Annexe . Matériel supplémentaire
+\item Références
+\end{itemize}
+
 \part*{Objectifs pour la semaine prochaine}
 \begin{itemize}
-	\item Définir un plan de travail efficace pour commencer un début de data paper
+	\item En attente.
 	
 
 \end{itemize}
-
 
 \end{document}
