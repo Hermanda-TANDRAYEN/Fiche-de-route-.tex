@@ -1,0 +1,134 @@
+\documentclass[11pt,oneside]{article}
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[frenchb]{babel}
+\usepackage{hyperref}
+\hypersetup {colorlinks=true,linkcolor=blue,urlcolor=blue}
+\AddThinSpaceBeforeFootnotes
+\FrenchFootnotes
+\usepackage{ae,lmodern}
+\usepackage{sectsty}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{multicol}
+\usepackage{pifont}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\rhead{Rapport}
+\lhead{\leftmark}
+\rfoot{Page \thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\definecolor{Rapport}{RGB}{213,25,50}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\definecolor{amber}{rgb}{1.0, 0.75, 0.0}
+\sectionfont{\bfseries\color{Plum}\LARGE}
+\subsectionfont{\color{Mulberry}}
+\parskip=10pt
+\setlength{\parindent}{1cm}
+\begin{document}
+\begin{titlepage}
+\phantom{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ytrfdytfugvghikuhjbiujbhaaaaaaaaaaaaaaa}
+
+
+\begin{minipage}[c]{.46\linewidth}
+		\centering
+		\includegraphics[scale=0.1]{logo} 
+	\end{minipage}
+\hfill%
+\begin{minipage}[c]{.46\linewidth}
+		\centering
+		\includegraphics[scale=0.04]{LE2P} 
+\end{minipage}
+
+
+
+\phantom{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ytrfdytfugvghikuhjbiujbhaaaaaaaaaaaaaaa}
+\center
+\fbox{\begin{minipage}[t][2cm][c]{10cm}
+\begin{center}
+{\huge \bfseries \textcolor{Rapport}{Rapport de Bureau d'étude}}
+\end{center}
+\end{minipage}}\\[0.5cm]
+\textbf{\Large \color{Mulberry} .}\\[0.5cm] 
+\begin{minipage}{0.5\textwidth}
+\begin{flushleft} \large
+\hspace{0.22\textwidth}\emph{\underline{Auteurs}:}\\
+\begin{multicols}{2}
+\begin{itemize}[font=\color{airforceblue} \Large, label=\ding{47}, leftmargin=0cm]
+\item{Hermanda \textsc{Tandrayen} \\ {\small{35008782}}}
+\item{Sanjy \textsc{Maksim} \\ {\small{35001087}}}
+\end{itemize}
+\end{multicols}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.45\textwidth}
+\begin{flushright} \large
+\emph{\underline{Encadrants}:}\phantom{aaaaa}\\
+
+\begin{itemize}[font=\color{amber} \Large, label=\ding{80}, leftmargin=3.5cm]
+\item{Beatrice \textsc{Morel}}
+\item{Alexandre \textsc{Graillet}}
+\item{Mathieu \textsc{Delsaut}}
+\end{itemize}
+
+\end{flushright}
+\end{minipage}\\[0cm]
+\vspace{10cm} 
+\begin{center}
+2019/2020
+\end{center}
+\vfill
+\end{titlepage}
+
+
+\newpage
+\renewcommand{\contentsname}{SOMMAIRE}
+\tableofcontents
+
+\newpage
+\part*{REMERCIEMENTS}
+
+\newpage
+\part*{MOTS CLES}
+
+DMP = Data Management Plan
+
+DOI = Data Object Identifier
+
+FAIR = Foundable, Accessible, Interoperable, Reusable 
+ 
+ ...
+ 
+\newpage
+\part{INTRODUCTION}
+
+
+\newpage
+\part{DMP}
+
+
+\newpage
+\part{FAIR}
+
+
+\newpage
+\part{DATA PAPER}
+
+
+\newpage
+\part{CONCLUSION}
+
+\newpage
+\part*{ANNEXE}
+
+
+\end{document}

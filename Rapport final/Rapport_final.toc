@@ -1,0 +1,7 @@
+\select@language {french}
+\contentsline {part}{I\hspace {1em}INTRODUCTION}{4}{part.1}
+\contentsline {part}{II\hspace {1em}DMP}{5}{part.2}
+\contentsline {part}{III\hspace {1em}FAIR}{6}{part.3}
+\contentsline {part}{IV\hspace {1em}DATA PAPER}{7}{part.4}
+\contentsline {part}{V\hspace {1em}CONCLUSION}{8}{part.5}
+\contentsfinish 
